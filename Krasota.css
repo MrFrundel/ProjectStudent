@@ -1,8 +1,32 @@
 ul li.red{
     color: red;
-    
+    list-style: square;
 }
 ul li.green{
     color: green;
-    
+    list-style: circle;
+}
+.margin {
+    background-color: rgb(192, 36, 36);
+    margin: 100px;
+}
+.padding {
+    background-color: cadetblue;
+    padding: 10px;
+}
+ol.element {list-style-type: none;
+    counter-reset: number;
+}
+ol.element li::before {
+    content: counter(number);
+    counter-increment: number;
+}
+blockquote::before{
+    content: "<<";
+}
+blockquote::after{
+    content: ">>";
+}
+img {
+    border: 2px 5px 6px 7px rgb(233, 96, 17);
 }
