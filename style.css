@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(155, 182, 179);
+}
+
+h1 {
+    color: rgb(221, 15, 32);
+}
+
+h2 {
+    color: chartreuse;
+    background: cornsilk;
+}
+
+.text {
+    font-weight: bold;
+    font-weight: lighter;
+    font-size: xx-large !important;
+    }
+
+.text2  {
+    font-style: italic;
+    color:chartreuse; /*comment*/ 
+    font-size:xx-small;
+}
+
+.H1, .P{
+    font-size: 14px;
+}
+
+.font {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 900;
+
+
+}
+#warning{
+    font-weight: bolder;
+    color: lightcoral;
+}
+p[align]{
+    font-weight: bold;
+}
+p[align="center"]{
+    font-weight: bold;
+}
+html {
+    background-image:url(bg.png)
+}
+
+.main, .not-main{
+    color: magenta;
+}
+
+p>i{
+    color: mediumpurple;
+}
+b+i{
+    color: rgb(108, 169, 240);
+}
+
+*{
+    color: red;
+} 
+
+#out{color: cadetblue;}
+p[align="left"]{
+    color: aqua;
+}
+.sbox{background:#f0f0f0 ; color: blue;}
+h1+p{
+    color: cornflowerblue;
+}
+div p{
+    color: aquamarine;
+    }
+div>p{
+    color: blueviolet;
+    }
+p{color: red;}
+
