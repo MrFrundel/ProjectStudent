@@ -9,3 +9,9 @@ td {border: 1px solid rgb(173, 8, 16);
     vertical-align: bottom;
     background-color: sandybrown;
 }
+td:nth-child(odd){
+    color: seagreen;
+}
+td:nth-child(2n){
+    color: slateblue;
+}
