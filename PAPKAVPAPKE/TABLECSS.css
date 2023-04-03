@@ -1,0 +1,15 @@
+table {
+    border: 30px solid red;
+    border-image: url("p0.png") 65;
+    empty-cells: hide;
+}
+th {border: 1px solid rgb(11, 90, 4);}
+td {border: 1px solid rgb(173, 8, 16);
+    text-align: center;
+    vertical-align: bottom;
+    background-color: sandybrown;
+}
+#UNIQ{
+    width: 15px;
+    height: 30px;
+}
