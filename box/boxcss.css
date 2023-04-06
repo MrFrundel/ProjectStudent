@@ -1,0 +1,28 @@
+div.min-w{
+    background-color: aquamarine;
+    width: 80%;
+    height: 200px;
+    min-width: 300px;
+}
+div.max-w{
+    border: 10px solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px ;
+    background-color: blueviolet;
+    width: 80%;
+    height: 200px;
+    max-width: 300px;
+}
+div.min-h{
+    background-color: rgb(43, 226, 104);
+    width: 80%;
+    height: 70%;
+    min-height: 200px;
+}
+div.overflow {
+    overflow: auto;
+    background-color: rgb(43, 183, 226);
+    width: 20%;
+    height: 20%;
+    max-height: 100px;
+}
