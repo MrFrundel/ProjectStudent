@@ -1,0 +1,23 @@
+body{
+    color: aqua; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 40px;
+}
+.main-con{
+    max-width: 600px; margin:0 auto; border: solid 10px;
+    color: chartreuse; padding: 10px; margin-top: 40px;
+
+}
+.main-con *{
+padding: 10px; background: red; border: dashed 5px black;
+}
+.main-con *+*{
+    margin-top: 20px;
+}
+.main-header{
+    height: 50px; background: fuchsia; border-color: coral;
+}
+.main {
+    min-height: 1000px;
+}
+.main-header{
+    position: sticky; top: 0;
+}
