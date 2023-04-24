@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            gap: 10px;
+        }
+        div{
+            width: 300px;
+            height: 300px;
+            background-image: url(https://avatars.mds.yandex.net/i?id=43f1a029d98aef8cb0091dba04947086_l-5292126-images-thumbs&n=27&h=384&w=480);
+            background-repeat: no-repeat;
+        }
+        .left{
+            background-size: contain;
+        }
+        .right{
+            background-size: cover;
+        }
+        .left-next{
+            background-size: 50px;
+        }
+        .right-next{
+            background-size: 50% 80%;
+        }
+    </style>
+</head>
+<body>
+    <div class="left"></div>
+    <div class="right"></div>
+    <div class="left-next"></div>
+    <div class="right-next"></div>
+</body>
+</html>
