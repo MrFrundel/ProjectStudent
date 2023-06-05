@@ -1,0 +1,58 @@
+/**ul{
+    background-color:black ;
+    li{
+        list-style: none;
+    
+        a{
+            color: aqua;
+         }
+    }
+}**/
+/**.menu-list{
+    background-color: red;
+    &_item{
+        list-style: none;
+    }
+    &_link{
+        color: aqua;
+        &:hover{
+            color: blueviolet;
+        }
+    }
+}**/
+/**.className{
+    color: red;
+}
+#idName{
+    color: blue;
+}
+.mixin-class{
+    .className();
+}
+#mixin-id{
+    #idName();
+}
+.link(@color, @colorHover) {
+    color: @color;
+    &:hover{
+        color: @colorHover;
+    }
+}
+.link-active{
+    .link(red, blue);
+}**/
+/**@pad1:20px;
+@pad2:15px;
+div{
+    background-color: aqua;
+    padding: if((@pad1 < @pad2), @pad1, @pad2);
+}**/
+each(range(4), {
+    .cell-@{value} {
+        width: (@value * 15vw);
+    }
+});
+
+div{
+    background-color: rgb(16, 76, 76);
+} 
