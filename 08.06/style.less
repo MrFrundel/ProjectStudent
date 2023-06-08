@@ -1,0 +1,23 @@
+@size-ceil: ceil(1.3);
+@size-floor: floor(2.8);
+@size-rnd: round(2.15, 1);
+div {font-size: percentage(max(@size-ceil, @size-floor, @size-rnd));}
+@colBg:color("pink");
+@colFg:color("purple");
+@padd:convert(5mm, pt);
+@marg:unit(5, vw);
+.one{
+    background-color: @colBg;
+    color: @colFg;
+    padding: @padd;
+    margin: @marg;
+}
+@col1:#ff0000;
+@col2:spin(@col1, 70%);
+@col3:shade(@col1, 30%);
+.two{
+    color: @col2;
+    background-color: @col3;
+    width: 300px;
+    height: 200px;
+}
